@@ -46,11 +46,13 @@
      width: 100%;
      display: flex;
      justify-content: space-between;
+     background-color: white;
+     color: black;
  }
  
  .navBar:hover {
      cursor: pointer;
-     color: green;
+     color: darkgreen;
  }
  
  .topCont{
