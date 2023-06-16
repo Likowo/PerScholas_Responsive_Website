@@ -1,49 +1,282 @@
 
-@media (max-width:540px) {
+@media (max-width:2040px) {
     .mainContainer{
       background-color: navy;
-      color:lemonchiffon;
-    }
-    .navBar p{
-        display: none;
-      }
+      color:rgb(228, 212, 59);
+    } 
+    
+/* .mainContainer{
+    border: solid 10px yellow;
+    background-color:blueviolet;
+     height: 300%;
+     width: 100%;
+ } */
+ 
+ .applyNow{
+     /* border: solid rgb(55, 0, 128); */
+     background-color: lightblue;
+     height: auto;
+     width: auto;
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     font-weight: bolder; 
+     align-items: center;     
+ }
+ 
+ .applyButt{
+     border: solid 4px black;
+     background-color: blue;
+     height: 50px;
+     width: 100%;
+     margin-left: 15%;
+     color: white;
+     font-size: 20px;
+ }
+ 
+ .applyButt:hover{
+     cursor: pointer;
+     zoom: 90%;
+     background-color: maroon;
+ }
+ 
+ .navBar{
+     /* border: solid red; */
+     height: 50%;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .navBar:hover {
+     cursor: pointer;
+     color: green;
+ }
+ 
+ .topCont{
+     /* border: solid green; */
+     height: 20%;
+     width: 100%;
+ }
+ .images{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .proslearner{
+     /* border: solid blue; */
+     height: 20%;
+     width: 30%;
+     font-size: 190%;
+     color: whitesmoke;
+ }
+ 
+ .proslearner:hover {
+     cursor: pointer;
+     zoom: 90%;
+     background-color: maroon
+ }
+ 
+ .midCont{
+     border: solid orange;
+     border-radius:10% ;
+     display: flex;
+     justify-content:space-evenly;
+     align-items: center;
+     color: rgba(19, 250, 19, 0.806);
+ } 
 }
-
-@media (max-width: 700px) {
-    .mainContainer {
-      background-color:pink;
-      color:purple;
-    }
-    .navBar p{
-        /* display: none; */
-        color: coral;
-      }
-}
-
-
-@media (max-width: 700px) {
+/*  ====== desktop */
+@media (max-width:1040px) {
     .mainContainer{
-      background-color: green;
-      color:lemonchiffon;
-    }
+      background-color: rgb(170, 19, 152);
+      color:black;
+    } 
+    
+/* .mainContainer{
+    border: solid 10px yellow;
+    background-color:blueviolet;
+     height: 300%;
+     width: 100%;
+ } */
+ 
+ .applyNow{
+     /* border: solid rgb(55, 0, 128); */
+     background-color: coral;
+     height: auto;
+     width: auto;
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     font-weight: bolder; 
+     align-items: center;     
+ }
+ 
+ .applyButt{
+     border: solid 4px black;
+     background-color: purple;
+     height: 50px;
+     width: 100%;
+     margin-left: 15%;
+     color: white;
+     font-size: 20px;
+ }
+ 
+ .applyButt:hover{
+     cursor: pointer;
+     zoom: 90%;
+     background-color: rgb(105, 130, 4);
+ }
+ 
+ .navBar{
+     /* border: solid red; */
+     height: 50%;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .navBar:hover {
+     cursor: pointer;
+     color: green;
+ }
+ 
+ .topCont{
+     /* border: solid green; */
+     height: 20%;
+     width: 100%;
+ }
+ .images{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .proslearner{
+     /* border: solid blue; */
+     height: 20%;
+     width: 30%;
+     font-size: 190%;
+     color: whitesmoke;
+ }
+ 
+ .proslearner:hover {
+     cursor: pointer;
+     zoom: 90%;
+     background-color: maroon
+ }
+ 
+ .midCont{
+     border: solid magenta;
+     border-radius:10% ;
+     display: flex;
+     justify-content:space-evenly;
+     align-items: center;
+     color: rgba(19, 250, 19, 0.806);
+ } 
 }
 
-@media (max-width: 700px) {
+/*   ========ipad */
+@media screen and (max-width: 880px)  and (min-width:580px) {
     .mainContainer{
-      background-color:pink;
-      color:red;
-    }
-}
+        background-color: saddlebrown;
+        color:black;
+      } 
+      
+  /* .mainContainer{
+      border: solid 10px yellow;
+      background-color:blueviolet;
+       height: 300%;
+       width: 100%;
+   } */
+   
+   .applyNow{
+       /* border: solid rgb(55, 0, 128); */
+       background-color: teal;
+       height: auto;
+       width: auto;
+       display: flex;
+       justify-content: center;
+       font-size: 30px;
+       font-weight: bolder; 
+       align-items: center;     
+   }
+   
+   .applyButt{
+       border: solid 4px black;
+       background-color:khaki;
+       height: 50px;
+       width: 100%;
+       margin-left: 15%;
+       color: white;
+       font-size: 20px;
+   }
+   
+   .applyButt:hover{
+       cursor: pointer;
+       zoom: 90%;
+       background-color:navy;
+   }
+   
+   .navBar{
+       /* border: solid red; */
+       height: 50%;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   .navBar:hover {
+       cursor: pointer;
+       color: yellow;
+   }
+   
+   .topCont{
+       /* border: solid green; */
+       height: 20%;
+       width: 100%;
+   }
+   .images{
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   .proslearner{
+       /* border: solid blue; */
+       height: 20%;
+       width: 30%;
+       font-size: 190%;
+       color: pink;
+   }
+   
+   .proslearner:hover {
+       cursor: pointer;
+       zoom: 90%;
+       background-color: rgb(41, 195, 70)
+   }
+   
+   .midCont{
+       border: solid rgb(96, 8, 53);
+       border-radius:10% ;
+       display: flex;
+       justify-content:space-evenly;
+       align-items: center;
+       color: rgba(38, 35, 199, 0.708);
+   } 
+  }
+
+
+
+ /*   ========mobile */
 
 .mainContainer{
-   /* border: solid 10px yellow; */
+  border: solid 10px yellow; 
    background-color:blueviolet;
     height: 300%;
     width: 100%;
 }
 
 .applyNow{
-    /* border: solid rgb(55, 0, 128); */
+     border: solid rgb(55, 0, 128); 
     background-color: lightblue;
     height: auto;
     width: auto;
