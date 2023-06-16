@@ -76,6 +76,21 @@
      zoom: 90%;
      background-color: maroon
  }
+
+ .entTalentSols{
+    /* border: solid blue; */
+    height: 10%;
+    width: 50%;
+    font-size: 150%;
+    color: whitesmoke;
+}
+
+ .imgs:hover {
+    cursor: pointer;
+    zoom: 90%;
+    background-color: maroon
+}
+
  
  .midCont{
      border: solid orange;
@@ -164,6 +179,20 @@
      zoom: 90%;
      background-color: maroon
  }
+
+ .entTalentSols{
+    /* border: solid blue; */
+    height: 10%;
+    width: 50%;
+    font-size: 150%;
+    color: whitesmoke;
+}
+
+ .imgs:hover {
+    cursor: pointer;
+    zoom: 90%;
+    background-color: maroon
+}
  
  .midCont{
      border: solid orangered;
@@ -254,6 +283,20 @@
        background-color: rgb(41, 195, 70)
    }
    
+   .entTalentSols{
+    /* border: solid blue; */
+    height: 10%;
+    width: 50%;
+    font-size: 150%;
+    color: whitesmoke;
+}
+
+ .imgs:hover {
+    cursor: pointer;
+    zoom: 90%;
+    background-color: maroon
+}
+
    .midCont{
        border: solid rgb(232, 66, 152);
        border-radius:10% ;
@@ -266,8 +309,8 @@
 
 
 
- /*   ========mobile */
-@media (max-width: 480px) and (min-width:375px) {   
+ /*   ================  mobile */
+@media (min-width:175px) and (max-width: 380px) {   
 body{
   /* border: solid 10px yellow;  */
    background-color:blueviolet;
@@ -339,7 +382,16 @@ body{
     zoom: 90%;
     background-color: maroon
 }
-.imgs:hover {
+
+.entTalentSols{
+    /* border: solid blue; */
+    height: 10%;
+    width: 50%;
+    font-size: 150%;
+    color: whitesmoke;
+}
+
+ .imgs:hover {
     cursor: pointer;
     zoom: 90%;
     background-color: maroon
