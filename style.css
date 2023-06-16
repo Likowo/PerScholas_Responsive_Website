@@ -1,8 +1,8 @@
 
-@media (max-width:2040px) {
-    .mainContainer{
-      background-color: navy;
-      color:rgb(228, 212, 59);
+@media (max-width:3040px) {
+   body{
+      background-color: rgb(140, 140, 209);
+      color:white;
     } 
     
 /* .mainContainer{
@@ -87,8 +87,8 @@
  } 
 }
 /*  ====== desktop */
-@media (max-width:1040px) {
-    .mainContainer{
+@media (max-width:1800px) {
+    body{
       background-color: rgb(170, 19, 152);
       color:black;
     } 
@@ -138,7 +138,7 @@
  
  .navBar:hover {
      cursor: pointer;
-     color: green;
+     color: white;
  }
  
  .topCont{
@@ -166,7 +166,7 @@
  }
  
  .midCont{
-     border: solid magenta;
+     border: solid orangered;
      border-radius:10% ;
      display: flex;
      justify-content:space-evenly;
@@ -176,8 +176,8 @@
 }
 
 /*   ========ipad */
-@media screen and (max-width: 880px)  and (min-width:580px) {
-    .mainContainer{
+@media (max-width: 880px)  and (min-width:580px) {
+    body{
         background-color: saddlebrown;
         color:black;
       } 
@@ -255,7 +255,7 @@
    }
    
    .midCont{
-       border: solid rgb(96, 8, 53);
+       border: solid rgb(232, 66, 152);
        border-radius:10% ;
        display: flex;
        justify-content:space-evenly;
@@ -267,9 +267,9 @@
 
 
  /*   ========mobile */
-
-.mainContainer{
-  border: solid 10px yellow; 
+@media (max-width: 480px) and (min-width:375px) {   
+body{
+  /* border: solid 10px yellow;  */
    background-color:blueviolet;
     height: 300%;
     width: 100%;
@@ -339,6 +339,11 @@
     zoom: 90%;
     background-color: maroon
 }
+.imgs:hover {
+    cursor: pointer;
+    zoom: 90%;
+    background-color: maroon
+}
 
 .midCont{
     border: solid orange;
@@ -347,6 +352,7 @@
     justify-content:space-evenly;
     align-items: center;
     color: rgba(19, 250, 19, 0.806);
+}
 }
 
 
